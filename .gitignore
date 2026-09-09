@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+.conda/
+
+# ML / RL artifacts
+weights/
+runs/
+env_*/
+env-multiUAV*/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+lightning_logs/
+
+# Outputs - keep img/ demo assets
+*.gif
+*.png
+*.jpg
+*.jpeg
+!img/
+!img/**
+
+# TensorBoard / logs
+*.tfevents.*
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# Tools
+.claude/
+.opencode/
+
+# Secrets / local config
+.env.local
+.env.*.local
+secrets.yaml
